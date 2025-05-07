@@ -6,7 +6,7 @@ flags:
     - key: checkout_version
       name: checkout_version
       type: VARIANT_FLAG_TYPE
-      enabled: false
+      enabled: true
       variants:
         - default: true
           key: v1
