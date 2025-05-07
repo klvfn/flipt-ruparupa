@@ -33,4 +33,4 @@ segments:
           property: customer_id
           operator: isoneof
           value: '["8732571","12345"]'
-      match_type: ANY_MATCH_TYPE
+      match_type: ALL_MATCH_TYPE
