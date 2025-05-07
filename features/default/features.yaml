@@ -17,3 +17,7 @@ flags:
           name: v2
           description: v2
           attachment: {}
+segments:
+    - key: checkout_version_v2
+      name: checkout_version_v2
+      match_type: ALL_MATCH_TYPE
