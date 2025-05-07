@@ -17,4 +17,9 @@ flags:
 segments:
     - key: checkout_version_v2
       name: checkout_version_v2
+      constraints:
+        - type: STRING_COMPARISON_TYPE
+          property: customer_id
+          operator: isoneof
+          value: '["12345","5678"]'
       match_type: ALL_MATCH_TYPE
