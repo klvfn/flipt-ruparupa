@@ -1,4 +1,9 @@
 version: "1.4"
 namespace:
-  key: beta
-  name: beta
+    key: beta
+    name: beta
+flags:
+    - key: checkout_version
+      name: checkout_version
+      type: VARIANT_FLAG_TYPE
+      enabled: true
