@@ -8,12 +8,21 @@ flags:
       type: VARIANT_FLAG_TYPE
       enabled: true
       variants:
-        - key: v1
+        - default: true
+          key: v1
           name: v1
           attachment: {}
         - key: v2
           name: v2
           attachment: {}
+      rules:
+        - segment:
+            keys:
+                - checkout_version_v2
+            operator: OR_SEGMENT_OPERATOR
+          distributions:
+            - variant: v2
+              rollout: 100
 segments:
     - key: checkout_version_v2
       name: checkout_version_v2
