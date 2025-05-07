@@ -33,8 +33,4 @@ segments:
           property: customer_id
           operator: isoneof
           value: '["8732571","12345"]'
-        - type: ENTITY_ID_COMPARISON_TYPE
-          property: entityId
-          operator: eq
-          value: customer_id
       match_type: ANY_MATCH_TYPE
