@@ -7,3 +7,10 @@ flags:
       name: checkout_version
       type: VARIANT_FLAG_TYPE
       enabled: true
+      variants:
+        - key: v1
+          name: v1
+          attachment: {}
+        - key: v2
+          name: v2
+          attachment: {}
