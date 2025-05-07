@@ -33,4 +33,7 @@ segments:
           property: customer_id
           operator: isoneof
           value: '["8732571","12345"]'
+        - type: STRING_COMPARISON_TYPE
+          property: customer_id
+          operator: notempty
       match_type: ALL_MATCH_TYPE
