@@ -8,7 +8,8 @@ flags:
       type: VARIANT_FLAG_TYPE
       enabled: false
       variants:
-        - key: v1
+        - default: true
+          key: v1
           name: v1
           description: v1
           attachment: {}
