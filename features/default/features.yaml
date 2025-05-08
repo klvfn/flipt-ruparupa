@@ -12,3 +12,7 @@ flags:
           name: v1
           description: v1
           attachment: {}
+        - key: v2
+          name: v2
+          description: v2
+          attachment: {}
