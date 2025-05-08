@@ -1,0 +1,9 @@
+version: "1.4"
+namespace:
+    key: default
+    name: Default
+flags:
+    - key: checkout_version
+      name: checkout_version
+      type: VARIANT_FLAG_TYPE
+      enabled: false
