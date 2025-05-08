@@ -34,3 +34,6 @@ segments:
           operator: isoneof
           value: '["1234","5678"]'
       match_type: ALL_MATCH_TYPE
+    - key: checkout_version_v1
+      name: checkout_version_v1
+      match_type: ALL_MATCH_TYPE
